@@ -20,3 +20,10 @@ Refactor the RESTy application as follows:
 - The `<Form>` component should:
   - Call a function on submit that updates the `<App/>` component via a function sent down as a prop so that the app can process the form values.
 - The `<Results/>` component should show mock API results.
+
+
+## [PR](https://github.com/SarahTek/RESTy/pull/1)
+
+## UML
+
+![RESTy-UML](RESTy-UML.png)
