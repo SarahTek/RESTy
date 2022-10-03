@@ -1,0 +1,19 @@
+{
+  "name": "resty",
+  "version": "1.0.0",
+  "description": "RESTy app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahTek/RESTy.git"
+  },
+  "author": "Sarah Teklemariam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SarahTek/RESTy/issues"
+  },
+  "homepage": "https://github.com/SarahTek/RESTy#readme"
+}
