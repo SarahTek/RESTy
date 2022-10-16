@@ -10,7 +10,6 @@ import Form from './components/form';
 import Results from './components/results';
 
 class App extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {

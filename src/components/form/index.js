@@ -1,9 +1,11 @@
 import React from 'react';
+
 import './form.scss';
 
 function Form(props) {
-  const handleSubmit = e => {
-    e.preventDefault();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
     const formData = {
       method: 'GET',
       url: 'https://pokeapi.co/api/v2/pokemon',
@@ -15,7 +17,7 @@ function Form(props) {
     <>
       <form onSubmit={handleSubmit}>
         <label >
-          <span>URL: </span>
+          <span id='URL'>URL: </span>
           <input name='url' type='text' />
           <button type="submit">GO!</button>
         </label>
@@ -27,7 +29,9 @@ function Form(props) {
         </label>
       </form>
     </>
-  );
+
+  )
+
 }
 
 export default Form;
