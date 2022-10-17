@@ -7,7 +7,6 @@ The following user stories detail the major functionality for this phase of the 
 - As a user, I want to enter the REST Method and URL to an API
 - As a user, I want to see a summary of my request as well as results returned from an API request in my browser in a readable format.
 
-
 Application Flow:
 
 - User enters an API URL
@@ -17,9 +16,10 @@ Application Flow:
 - Displays the response headers and results separately
 - Both headers and results should be “pretty printed” JSON
 
-
+[PR](https://github.com/SarahTek/RESTy/pull/6)
 
 ## Collaborators 
 
 - Tony
 - Martha
+- Danny
