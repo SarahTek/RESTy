@@ -1,4 +1,8 @@
 $backgroundColor: #f5f5f5;
+@mixin theme($background: dodgerblue) {
+  background-color: $background-color;
+  color: $text-color;
+}
 
 html, body {
   height: 100%;

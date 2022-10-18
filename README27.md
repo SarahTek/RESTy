@@ -18,7 +18,7 @@ Application Flow:
 
 [PR](https://github.com/SarahTek/RESTy/pull/6)
 
-## Collaborators 
+## Collaborators
 
 - Tony
 - Martha
